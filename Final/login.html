@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bondi</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container top-nav">
+        <h1 class="logo">أسود و <span class="gold">ذهبي</span></h1>
+        <form class="search" action="">
+          <input type="search" placeholder="ابحث عن منتج..." />
+          <input type="submit" value="بحث" />
+
+        </form>
+
+        <div class="cartheader">
+          <div class="tottal-price">
+            <p>سلة المشتريات:</p>
+            <!-- <p class="price-cart-head">$0</p> -->
+          </div>
+
+          <div class="iconcart">
+            <i class="fa-solid fa-bag-shopping i-shop"></i>
+            <span class="count-item">0</span>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="links container">
+          <i class="fa-solid fa-bars btn_open"></i>
+          <ul>
+            <i class="fa-regular fa-circle-xmark btn_close"></i>
+            <h1 class="logo">أسود و <span>ذهبي</span></h1>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#feature">المميزات</a></li>
+            <li>
+              <a href="#slide">جميع المنتجات</a>
+            </li>
+            <li><a href="#gallery">المعرض</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+          </ul>
+          <div class="login">
+            <a href="login.html" class="login-btn">
+              <i class="fa-solid fa-right-to-bracket"></i>تسجيل الدخول</a
+            >
+            <a href="signup.html" class="signup-btn"
+              >إنشاء حساب <i class="fa-solid fa-user-plus"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <form action="" class="login-form">
+      <h2 class="Login">تسجيل الدخول</h2>
+    
+      <label for="email">البريد الإلكتروني</label>
+      <input type="email" id="email" placeholder="البريد الإلكتروني" />
+    
+      <label for="password">كلمة المرور</label>
+      <input type="password" id="password" placeholder="كلمة المرور" />
+    
+      <input type="submit" value="تسجيل الدخول" />
+    
+      <p>ليس لديك حساب؟ <a href="signup.html">إنشاء حساب</a></p>
+    
+      <div class="google-login">
+        <i class="fa-brands fa-google"></i>
+        <p>تسجيل الدخول باستخدام Google</p>
+      </div>
+      <div class="git-hub-login">
+        <i class="fa-brands fa-github"></i>
+        <p>تسجيل الدخول باستخدام Github</p>
+      </div>
+    </form>
+    
+
+    <p class="back">العودة إلى الأعلى</p>
+    
+    <div class="footer">
+      <div class="container">
+        <div class="box">
+          <h3>أسود و <span>ذهبي</span></h3>
+          <ul class="social">
+            <li>
+              <a href="#" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text">حرية الاختيار بين الحلويات والمأكولات الشهية</p>
+        </div>
+        <div class="box">
+          <ul class="links">
+            <li><a href="#">معلومات عن المنتجات</a></li>
+            <li><a href="#">عروض خاصة</a></li>
+            <li><a href="#">آراء العملاء</a></li>
+            <li><a href="#">شروط الاستخدام</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <div class="line">
+            <div class="info">اليمن - صنعاء، شارع الشيخ عثمان.</div>
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+          </div>
+          <div class="line">
+            <div class="info">ساعات العمل: من 10:00 صباحًا إلى 2:00 صباحًا</div>
+            <i class="far fa-clock fa-fw"></i>
+          </div>
+          <div class="line">
+            <div class="info">
+              <span>+967 780 842 038</span>
+              <span>+967 780 842 038</span>
+            </div>
+            <i class="fas fa-phone-volume fa-fw"></i>
+          </div>
+        </div>
+        <div class="box footer-gallery">
+          <img src="image/banner2.jpg" alt="" />
+          <img src="image/banner3.jpg" alt="" />
+          <img src="image/benner4.jpg" alt="" />
+          <img src="image/benner5.jpg" alt="" />
+          <img src="image/benner6.jpg" alt="" />
+          <img src="image/benner1.jpg" alt="" />
+        </div>
+      </div>
+      <p class="copyright">صنع مع &lt;3 بواسطة محمد جميل</p>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

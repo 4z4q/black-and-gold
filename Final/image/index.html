@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="website icon" type="svg" href="img/cart-shopping-solid.svg" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Shoping</title>
+  </head>
+  <body>
+    <header>
+      <div class="container top-nav">
+        <h1 class="logo">Black & <span class="gold">Gold</span></h1>
+        <form class="search" action="">
+          <input type="search" placeholder="Search for product..." />
+          <input type="submit" value="Search" />
+        </form>
+
+        <div class="cartheader">
+          <div class="iconcart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="count-item">0</span>
+          </div>
+          <div class="tottal-price">
+            <p>My Cart:</p>
+            <p class="price-cart-head">$0</p>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="links container">
+          <i class="fa-solid fa-bars btn_open"></i>
+          <ul>
+            <i class="fa-regular fa-circle-xmark btn_close"></i>
+            <img src="img/logo-black.png" alt="" class="togle-menu" />
+            <li class="transition" class="active"><a href="#">Home</a></li>
+            <li class="transition"><a href="item.html">Cart</a></li>
+            <li class="transition">
+              <a href="all_product.html">All Product</a>
+            </li>
+            <li class="transition"><a href="#">About US</a></li>
+            <li class="transition"><a href="#">Contact</a></li>
+          </ul>
+          <div class="login">
+            <a href="login.html"
+              >Login <i class="fa-solid fa-right-to-bracket"></i
+            ></a>
+            <a href="signup.html"
+              >Sign Up <i class="fa-solid fa-user-plus"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+    <!-- <div class="hero-img">
+      <img src="images/Rochier-Cake.jpeg" alt="" />
+    </div> -->
+    <div class="cart">
+      <div class="top-cart">
+        <h3>My cart <span class="count">(0 Item in cart)</span></h3>
+        <span onclick="close()" class="icon"
+          ><i class="fa-solid fa-circle-xmark"></i
+        ></span>
+      </div>
+
+      <div class="item-in-cart"></div>
+
+      <div class="bottom-in-cart">
+        <div class="total">
+          <p>Cart subtotal</p>
+          <p class="price-cart-total">$0</p>
+        </div>
+
+        <div class="button-cart">
+          <a href="#" class="btn-cart">proceed to checkout</a>
+          <button class="btn-cart trans-bg">shop more</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Cart -->
+    <section class="slider">
+      <div class="container">
+        <div class="side-bar">
+          <h2><i class="fa-solid fa-bars"></i>shop by derpament</h2>
+          <a href="#">All Catogries</a>
+          <a href="#">Best Seller product</a>
+          <a href="#">new arrivels</a>
+          <a href="#">top 10 offers</a>
+          <a href="#">phones & tablets</a>
+          <a href="#">Electronics & digits</a>
+          <a href="#">flashion & watches</a>
+          <a href="#">TV & audio</a>
+        </div>
+        <div class="slide-swp mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/slider/-5260206753226808221_121.jpg" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/slider/-5260206753226808222_121.jpg" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/slider/-5260206753226808223_121.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class=" "></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Slider -->
+    <section class="feature">
+      <div class="container">
+        <div class="box">
+          <img src="img/features1.png" alt="" />
+          <div class="content">
+            <h4>Free Shoping</h4>
+            <p>Free shoping on all order</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/features2.png" alt="" />
+          <div class="content">
+            <h4>Free Shoping</h4>
+            <p>Free shoping on all order</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/features3.png" alt="" />
+          <div class="content">
+            <h4>Free Shoping</h4>
+            <p>Free shoping on all order</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/features4.png" alt="" />
+          <div class="content">
+            <h4>Free Shoping</h4>
+            <p>Free shoping on all order</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/features5.png" alt="" />
+          <div class="content">
+            <h4>Free Shoping</h4>
+            <p>Free shoping on all order</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Feature -->
+    <section class="banner">
+      <div class="container">
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="images/-5208424467137683761_121.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="images/-5208424467137683762_121.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="images/-5208424467137683764_121.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Banner -->
+    <section class="slide slide-sale">
+      <div class="container">
+        <div class="sale_sec mySwiper">
+          <div class="top-side">
+            <h2>on sale <span>product</span></h2>
+          </div>
+          <div id="swiper_items_sale" class="products swiper-wrapper"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Slider Swiper -->
+    <section class="banner bannerBig">
+      <div class="container">
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="images/-5208424467137683764_121.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <!-- images/-5260206753226808389_121.jpg -->
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="images/-5208424467137683765_121.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Glass Images -->
+
+    <section class="slide slide-product">
+      <div class="container">
+        <div class="top-side">
+          <h2>Sweet & Packeg <span>choclate</span></h2>
+        </div>
+
+        <div class="slide_with_img">
+          <div class="categ_img">
+            <a href="#"><img src="img/banner/banner-sm-1.jpg" alt="" /></a>
+          </div>
+
+          <div class="product mySwiper">
+            <div
+              class="products other_product_swiper swiper-wrapper"
+              id="other_product_swiper"
+            ></div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class=" "></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide slide-product">
+      <div class="container">
+        <div class="top-side">
+          <h2>Computer & Desktop <span>product</span></h2>
+        </div>
+
+        <div class="slide_with_img">
+          <div class="product mySwiper">
+            <div
+              class="products other_product_swiper_seconde swiper-wrapper"
+              id="other_product_swiper_seconde"
+            ></div>
+          </div>
+
+          <div class="categ_img">
+            <a href="#"><img src="img/banner/banner-sm-2.jpg" alt="" /></a>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class=" "></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="container">
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="images/-5208424467137683765_121.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="images/-5208424467137683760_121.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="images/-5208424467137683762_121.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NewsLetter -->
+    <div class="newsletter">
+      <div class="container">
+        <div class="content">
+          <img src="img/icon_email.png" alt="" />
+          <div class="text">
+            <h4>sign up to newsletter</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <h6>$30 coupon for first shoping</h6>
+          </div>
+        </div>
+        <form action="" class="form">
+          <input
+            type="email"
+            name="email"
+            id=""
+            placeholder="Enter Your Email Here."
+          />
+          <input type="submit" value="Subscribe" />
+        </form>
+      </div>
+    </div>
+    <!-- End NewsLetter -->
+
+    <div class="back">
+      <p>Back To Top</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="box">
+          <h3>Black & <span>Gold</span></h3>
+          <ul class="social">
+            <li>
+              <a href="#" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text">
+            Freedom to Choose and Modify Between Sweet and Savory
+          </p>
+        </div>
+        <div class="box">
+          <ul class="links">
+            <li><a href="#">Important Link 1</a></li>
+            <li><a href="#">Important Link 2</a></li>
+            <li><a href="#">Important Link 3</a></li>
+            <li><a href="#">Important Link 4</a></li>
+            <li><a href="#">Important Link 5</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">Saudi Arabia - Riyadh Shiekh Othman Street .</div>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info">Business Hours: From 10:00:AM To 2:00:AM</div>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+967 780 842 038</span>
+              <span>+967 780 842 038</span>
+            </div>
+          </div>
+        </div>
+        <div class="box footer-gallery">
+          <img src="images/-5208424467137683760_121.jpg" alt="" />
+          <img src="images/-5208424467137683761_121.jpg" alt="" />
+          <img src="images/-5208424467137683762_121.jpg" alt="" />
+          <img src="images/-5208424467137683763_121.jpg" alt="" />
+          <img src="images/-5208424467137683764_121.jpg" alt="" />
+          <img src="images/-5208424467137683765_121.jpg" alt="" />
+        </div>
+      </div>
+      <p class="copyright">Made With &lt;3 By Mohammed Jameel</p>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="js/items.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

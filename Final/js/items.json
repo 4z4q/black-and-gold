@@ -1,0 +1,113 @@
+[
+  {
+    "id": 0,
+    "img": "image/img/1.jpg",
+    "img_hover": "image/img/2.jpg",
+    "name": "حرية الاختيار والتعديل بين الحلويات",
+    "price": 185,
+    "old_price": 225
+  },
+  {
+    "id": 1,
+    "img": "image/img/2.jpg",
+    "img_hover": "image/img/3.jpg",
+    "name": "تشكيلة متنوعة من الكيكات",
+    "price": 100,
+    "old_price": 120
+  },
+  {
+    "id": 2,
+    "img": "image/img/3.jpg",
+    "img_hover": "image/img/4.jpg",
+    "name": "كيك الفواكه الطازجة",
+    "price": 140,
+    "old_price": 200
+  },
+  {
+    "id": 3,
+    "img": "image/img/4.jpg",
+    "img_hover": "image/img/5.jpg",
+    "name": "كيك الشوكولاتة الغني",
+    "price": 90,
+    "old_price": 110
+  },
+  {
+    "id": 4,
+    "img": "image/img/5.jpg",
+    "img_hover": "image/img/6.jpg",
+    "name": "كيك الفانيلا الكلاسيكي",
+    "price": 350,
+    "old_price": 420
+  },
+
+  {
+    "id": 7,
+    "img": "image/img/8.jpg",
+    "img_hover": "image/img/9.jpg",
+    "name": "كيك الحفلات المميز",
+    "price": 150,
+    "old_price": 200
+  },
+  {
+    "id": 8,
+    "img": "image/img/9.jpg",
+    "img_hover": "image/img/10.jpg",
+    "name": "كيك الجبن بالكريمة",
+    "price": 180
+  },
+  {
+    "id": 9,
+    "img": "image/img/10.jpg",
+    "img_hover": "image/img/11.jpg",
+    "name": "كيك الكراميل اللذيذ",
+    "price": 220,
+    "old_price": 235
+  },
+  {
+    "id": 10,
+    "img": "image/img/11.jpg",
+    "img_hover": "image/img/12.jpg",
+    "name": "كيك الفراولة المنعش",
+    "price": 115,
+    "old_price": 235
+  },
+  {
+    "id": 11,
+    "img": "image/img/12.jpg",
+    "img_hover": "image/img/13.jpg",
+    "name": "كيك اللوز بالنكهة الرائعة",
+    "price": 120
+  },
+  {
+    "id": 12,
+    "img": "image/img/13.jpg",
+    "img_hover": "image/img/14.jpg",
+    "name": "كيك التوت البري",
+    "price": 90,
+    "old_price": 235
+
+  },
+  {
+    "id": 13,
+    "img": "image/img/14.jpg",
+    "img_hover": "image/img/15.jpg",
+    "name": "كيك الجزر الصحي",
+    "price": 129,
+    "old_price": 235
+
+  },
+  {
+    "id": 14,
+    "img": "image/img/15.jpg",
+    "img_hover": "image/img/1.jpg",
+    "name": "كيك الشوكولاتة الداكنة",
+    "price": 180
+  },
+  {
+    "id": 15,
+    "img": "image/img/1.jpg",
+    "img_hover": "image/img/2.jpg",
+    "name": "كيك الإسفنجي الخفيف",
+    "price": 60
+  }
+]

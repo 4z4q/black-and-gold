@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bondi</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container top-nav">
+        <h1 class="logo">أسود و <span class="gold">ذهبي</span></h1>
+        <form class="search" action="">
+          <input type="search" placeholder="ابحث عن منتج..." />
+          <input type="submit" value="بحث" />
+        </form>
+
+        <div class="cartheader">
+          <div class="tottal-price">
+            <p>سلة المشتريات:</p>
+          </div>
+
+          <div class="iconcart">
+            <i class="fa-solid fa-bag-shopping i-shop"></i>
+            <span class="count-item">0</span>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="links container">
+          <i class="fa-solid fa-bars btn_open"></i>
+          <ul>
+            <i class="fa-regular fa-circle-xmark btn_close"></i>
+            <h1 class="logo">أسود و <span>ذهبي</span></h1>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#feature">المميزات</a></li>
+            <li>
+              <a href="#slide">جميع المنتجات</a>
+            </li>
+            <li><a href="#gallery">المعرض</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+          </ul>
+          <div class="login">
+            <a href="login.html" class="login-btn">
+              <i class="fa-solid fa-right-to-bracket"></i>تسجيل الدخول</a
+            >
+            <a href="signup.html" class="signup-btn"
+              >إنشاء حساب <i class="fa-solid fa-user-plus"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="slider">
+      <div class="container">
+        <div class="side-bar">
+          <h2><i class="fa-solid fa-bars"></i> تسوّق حسب نوع الحلوى</h2>
+          <a href="#">جميع الأصناف</a>
+          <a href="#">الأكثر مبيعًا</a>
+          <a href="#">الحلويات الجديدة</a>
+          <a href="#">أفضل 10 عروض</a>
+          <a href="#">الشوكولاتة والحلويات</a>
+          <a href="#">الكعك والبسكويت</a>
+          <a href="#">المعجنات والفطائر</a>
+          <a href="#">المثلجات والحلويات الباردة</a>
+        </div>
+        <div class="slide-swp mySwiper">
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="image/1.jpg" alt="" />
+            </a>
+            <!-- <a href="#">
+              <img src="image/1.jpg" alt="" />
+            </a>
+            <a href="#">
+              <img src="image/1.jpg" alt="" />
+            </a> -->
+          </div>
+        </div>
+
+        <div class="swiper-button next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="swiper-button prev">
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature" id="feature">
+      <div class="container">
+        <div class="box">
+          <img src="image/features1.png" alt="" />
+          <div class="content">
+            <h4>تسوق مجاني</h4>
+            <p>تسوق مجاني على جميع الطلبات</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/features2.png" alt="" />
+          <div class="content">
+            <h4>تسوق مجاني</h4>
+            <p>تسوق مجاني على جميع الطلبات</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/features3.png" alt="" />
+          <div class="content">
+            <h4>تسوق مجاني</h4>
+            <p>تسوق مجاني على جميع الطلبات</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/features4.png" alt="" />
+          <div class="content">
+            <h4>تسوق مجاني</h4>
+            <p>تسوق مجاني على جميع الطلبات</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/features5.png" alt="" />
+          <div class="content">
+            <h4>تسوق مجاني</h4>
+            <p>تسوق مجاني على جميع الطلبات</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="container">
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="image/benner1.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="image/banner2.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="image/banner3.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide">
+      <div class="container">
+        <div class="sale_sec">
+          <div class="top-side">
+            <h2>منتجات <span>معروضة للبيع</span></h2>
+          </div>
+          <div id="swiper_items_sale" class="products"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="container">
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="image/banner2.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="image/benner5.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="banner-img">
+          <div class="glass-hover">
+            <a href="#">
+              <img src="image/benner6.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="gallery">
+        <div class="top-side">
+          <h2>on sale <span>product</span></h2>
+        </div>
+        <div class="imag">
+          <img src="image/img/6.jpg" alt="gallery" />
+          <img src="image/img/7.jpg" alt="gallery" />
+          <img src="image/img/8.jpg" alt="gallery" />
+        </div>
+      </div>
+    </div> -->  
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h3 class="top-side">المعرض</h3>
+
+        <ul class="gallery-list has-scrollbar">
+          <li class="gallery-item">
+            <a href="#">
+              <img src="image/img/1.jpg" alt="gallery" />
+            </a>
+          </li>
+
+          <li class="gallery-item">
+            <a href="#">
+              <img src="image/img/2.jpg" alt="gallery" />
+            </a>
+          </li>
+
+          <li class="gallery-item">
+            <a href="#">
+              <img src="image/img/3.jpg" alt="gallery" />
+            </a>
+          </li>
+
+          <li class="gallery-item">
+            <a href="#">
+              <img src="image/img/4.jpg" alt="gallery" />
+            </a>
+          </li>
+
+          <li class="gallery-item">
+            <a href="#">
+              <img src="image/img/5.jpg" alt="gallery" />
+            </a>
+          </li>
+
+          <li class="gallery-item">
+            <a href="#">
+              <img src="image/img/9.jpg" alt="gallery" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="contact" id="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>تواصل معنا</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="اسمك" name="name" />
+            <input type="text" placeholder="رقم هاتفك" name="phone" />
+            <input type="email" placeholder="بريدك الإلكتروني" name="email" />
+            <input type="text" placeholder="الموضوع" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="رسالتك"></textarea>
+            <input type="submit" value="إرسال" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- <div class="newsletter">
+      <div class="container">
+
+        <div class="content">
+          <img src="image/icon_email.png" alt="" />
+          <div class="text">
+            <h4>sign up to newsletter</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <h6>$30 coupon for first shoping</h6>
+          </div>
+        </div>
+
+        <form action="" class="form">
+          <input
+            type="email"
+            name="email"
+            id=""
+            placeholder="Enter Your Email Here."
+          />
+          <input type="submit" value="Subscribe" />
+        </form>
+
+      </div>
+    </div> -->
+
+    <p class="back">العودة إلى الأعلى</p>
+
+    <!-- <section class="mapbox" data-mapbox>
+      <figure>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61951.790534143875!2d44.2027628316286!3d13.959384882162684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x161ce965295549bb%3A0x175d4cebb3c8c622!2z2KXYqNiMINin2YTZitmO2YXZjtmG!5e0!3m2!1sar!2s!4v1727381742848!5m2!1sar!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </figure>
+    </section> -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="box">
+          <h3>أسود و <span>ذهبي</span></h3>
+          <ul class="social">
+            <li>
+              <a href="#" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text">حرية الاختيار بين الحلويات والمأكولات الشهية</p>
+        </div>
+        <div class="box">
+          <ul class="links">
+            <li><a href="#">معلومات عن المنتجات</a></li>
+            <li><a href="#">عروض خاصة</a></li>
+            <li><a href="#">آراء العملاء</a></li>
+            <li><a href="#">شروط الاستخدام</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <div class="line">
+            <div class="info">اليمن - صنعاء، شارع الشيخ عثمان.</div>
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+          </div>
+          <div class="line">
+            <div class="info">ساعات العمل: من 10:00 صباحًا إلى 2:00 صباحًا</div>
+            <i class="far fa-clock fa-fw"></i>
+          </div>
+          <div class="line">
+            <div class="info">
+              <span>+967 780 842 038</span>
+              <span>+967 780 842 038</span>
+            </div>
+            <i class="fas fa-phone-volume fa-fw"></i>
+          </div>
+        </div>
+        <div class="box footer-gallery">
+          <img src="image/banner2.jpg" alt="" />
+          <img src="image/banner3.jpg" alt="" />
+          <img src="image/benner4.jpg" alt="" />
+          <img src="image/benner5.jpg" alt="" />
+          <img src="image/benner6.jpg" alt="" />
+          <img src="image/benner1.jpg" alt="" />
+        </div>
+      </div>
+      <p class="copyright">صنع مع &lt;3 بواسطة محمد جميل</p>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/items.js"></script>
+  </body>
+</html>
